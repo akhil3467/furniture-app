@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+.banner{
+  background-image:url('banner.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+}
+.banner-text h1{
+  color: #fff;
+  letter-spacing: 5px;
+}
+.banner-text h2{
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.btn-primary:hover {
+  background-color: #f97316;
+}
+
+.product {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #f59e0b;
+  color: black;
+}
+
+.products {
+  font-weight: 600;
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
