@@ -34,6 +34,30 @@ export const product_list=[
         category:"chair",
     image:chair_4
     },
+    { id:1,
+        product:"sofa 1",
+        price:1200,
+        category:"sofa",
+    image:sofa_1
+    },
+    { id:2,
+        product:"sofa 2",
+        price:1399,
+        category:"sofa",
+    image:sofa_2
+    },
+    { id:3,
+        product:"sofa 3",
+        price:1500,
+        category:"sofa",
+    image:sofa_3
+    },
+    { id:4,
+        product:"sofa 4",
+        price:1800,
+        category:"sofa",
+    image:sofa_4
+    },
 
         
 
